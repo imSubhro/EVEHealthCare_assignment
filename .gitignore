@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# environment / secrets - never commit
+.env
+.env.*
+*.env
+!.env.example
+
+*.db
+.venv/
+venv/
+.idea/
+.vscode/
+*.log
+.pytest_cache/
+.ruff_cache/
+htmlcov/
+.coverage
